@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+    *{
+        margin: 0;
+    }
+    body{
+        background-color: #Edeae5;
+        color: black;
+    }
+    #navul{
+        display: flex;
+        justify-content: right;
+        list-style-type: none;
+    }
+    li{
+        margin-right: 25px;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    a:hover{
+        color: #026670;
+        filter: drop-shadow(0 0 0.1rem rgb(53, 113, 202));
+    }
+    header{
+        justify-content: center;
+        display: flex;
+    }
+    div{
+        display: flex;
+        margin: 50px;
+        justify-content: space-between;
+        align-items: stretch;
+    }
+    #imagen{
+        display: block;
+        text-align: center;
+    }
+    #tex1{
+        width: 350px;
+    }
+    #video1{
+        display: block;
+    }
+    #texvi{
+        width: 350px;
+    }
+    #audio{
+        display: block;
+        text-align: center;
+        margin-bottom: 300px;
+    }
+    #pin{
+        display: block;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Multimedia</h1>
+    </header>
+    <nav>
+        <ul id="navul">
+            <li><a href="tablas.html">Tablas</a></li>
+            <li><a href="formularios.html">Formularios</a></li>
+            <li><a href="text.html">Texto</li>
+            <li><a href="semantica.html">Semanticas</a></li>
+            <li><a href="agrup.html">Agrupacion</li>
+            <li><a href="multimed.html">Multimedia</a></li>
+            <li><a href="../index.html">Principal</a></li>
+        </ul>
+    </nav>
+</body>
+<div>
+    <div id="imagen">
+    <picture>
+    <img src="../Multimedia/the-fire-darkness-dark-souls-longing-wallpaper-preview.jpg" alt="DarkSouls" width="350px" height="auto">
+    </picture>
+    <section id="tex1">
+    <p>Como hemos mencionado, para incluir imágenes en el contenido de una página utilizaremos la etiqueta img, que tiene los siguientes atributos
+        <ul id="img_1">
+            <li>src = Indica el nombre o la URL de la imagen a mostrar. Atributo obligatorio.</li>
+            <li>alt	= Establece un texto alternativo que describa la imagen a mostrar. Atributo obligatorio.</li>
+            <li>width = Indica el ancho de la imagen en píxels (sin la unidad). Se puede hacer desde CSS.</li>
+            <li>height = Indica el alto de la imagen en píxels (sin la unidad). Se puede hacer desde CSS.</li>
+        </ul>
+    Asi mismo dentro del Picture se puede añadir las etiquetas source, que indicarán al navegador que debe intentar leer esa imagen si tiene soporte para su formato
+    </p>
+    </section>
+    </div>
+    <div id="video1">
+    <video src="../Multimedia/God of War Ragnarök _ Tráiler cinematográfico Padre e hijo.mp4" controls width="350 px" height="230.75px"></video>
+    <section id="texvi">
+    <p>
+        Para añadir videos con la etique video hay que tener en cuenta:
+        <ul id="vid_1">
+            <li>src = Indica el nombre o la URL de la imagen a mostrar. Atributo obligatorio.</li>
+            <li>controls = coloca controles para interactuar con el video</li>
+            <li>width = Indica el ancho de la imagen en píxels (sin la unidad). Se puede hacer desde CSS.</li>
+            <li>height = Indica el alto de la imagen en píxels (sin la unidad). Se puede hacer desde CSS.</li>
+        </ul>
+    </p>
+    </section>
+    </div>
+    <div id="audio">
+    <audio src="../Multimedia/canonico.mpeg" controls>Un evento se aproxima</audio>
+    <p>Un evento se aproxima</p>
+    </div>
+</div>
+<div id="pin">
+    <iframe width="350px" height="auto" src="https://www.youtube.com/embed/7jy_9XJvfDY" title="Pingüino Plantilla del meme" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+</html>
