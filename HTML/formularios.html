@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+        body{
+            background-color: #0b0c10;
+            color: white;
+        }
+        ul{
+            display: flex;
+            justify-content: right;
+            list-style-type: none;
+        }
+        li{
+            margin-right: 25px;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+        }
+        a:hover{
+            color: rgb(60, 45, 196);
+            filter: drop-shadow(0 0 0.1rem rgb(60, 45, 196));
+        }
+        header{
+            justify-content: center;
+            display: flex;
+        }
+        div{
+            text-align: center;
+            margin-top: 125px;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Formularios</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="tablas.html">Tablas</a></li>
+            <li><a href="formularios.html">Formularios</a></li>
+            <li><a href="text.html">Texto</li>
+            <li><a href="semantica.html">Semanticas</a></li>
+            <li><a href="agrup.html">Agrupacion</li>
+            <li><a href="multimed.html">Multimedia</a></li>
+            <li><a href="../index.html">Principal</a></li>
+        </ul>
+    </nav>
+    <div>
+    <form name="Formularios" method="post" action="/send/">
+        <h2>Este campo de formulario se usa para el texto</h2>
+    <input type="text">
+        <h2>Este campo de formulario se usa para digitar una contraseña</h2>
+    <input type="password">
+        <h2>Se utiliza para seleccionar opciones</h2>
+    <input type="radio">
+        <h2>Se utiliza para seleccionar varias opciones</h2>
+    <input type="checkbox" checked style="color: brown;">
+        <h2>Este campo de formulario se usa para digitar un Email</h2>
+    <input type="email">
+        <h2>Este campo de formulario se usa para Subir un Archivo</h2>
+    <input type="file">
+        <h2>Se utiliza para elegir un Numero</h2>
+    <input type="number">
+        <h2>Este campo se utiliza para seleccionar un rango</h2>
+    <input type="range">
+        <h2>Este campo se utiliza para Buscar algo</h2>
+    <input type="search">
+        <h2>Este campo de formulario se usa para digitar un Numero de Telefeno</h2>
+    <input type="tel">
+        <h2>Tiempo</h2>
+    <input type="time">
+        <h2>Este campo de formulario se usa para subir un Url</h2>
+    <input type="url">
+        <h2>se utiliza para Enviar los campos que ya se rellenaron</h2>
+    <input type="submit">
+        <h2>se utiliza para Resetear los campos que ya se rellenaron</h2>
+    <input type="reset">
+    <h2>Seleccionar color</h2>
+    <input type="color">
+    <h2>Escoja la opcion que quiera</h2>
+    <select>
+        <option value="1">Ser feliz</option>
+        <option value="2">:D</option>
+        <option value="3">sigamos con las demas paginas</option>
+    </select>
+    </form>
+    </div>
+</body>
+
+</html>
