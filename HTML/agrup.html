@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+    *{
+        margin: 0;
+    }
+    body{
+        background-color: #272727;
+        color: white;
+    }
+    ul{
+        display: flex;
+        justify-content: right;
+        list-style-type: none;
+    }
+    li{
+        margin-right: 25px;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    a:hover{
+        color: #ff652f;
+        filter: drop-shadow(0 0 0.1rem rgb(231, 125, 3));
+    }
+    header{
+        justify-content: center;
+        display: flex;
+    }
+    #caja{
+        background-color: #747474;
+        width: 170px;
+        height: auto;
+        margin: 25px;
+    }
+    #tex{
+        background-color: #747474;
+        width: 170px;
+        margin: 25px;
+    }
+    #lis{
+        background-color: #747474;
+        width: 280px;
+        margin: 25px;
+    }
+    main{
+        display: flex;
+        margin: 85px;
+        justify-content: center;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Agrupacion</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="tablas.html">Tablas</a></li>
+            <li><a href="formularios.html">Formularios</a></li>
+            <li><a href="text.html">Texto</li>
+            <li><a href="semantica.html">Semanticas</a></li>
+            <li><a href="agrup.html">Agrupacion</li>
+            <li><a href="multimed.html">Multimedia</a></li>
+            <li><a href="../index.html">Principal</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div id="caja">
+            <p>Div=Capa o división utilizado para agrupar varias etiquetas HTML</p>
+        </div>
+            <div id="tex">
+            <p>La etiqueta p se utiliza para escribir textos y la hr se usa para una separacion tematica</p>
+            </div>
+            <div id="lis">
+            <ol>
+                <li>li = Contiene uno de los ítems de una lista numerada o sin numerar.</li>
+                <li><pre> Establece un texto preformateado </pre></li>
+                <li><blockquote>Agrupa información y características de una cita</blockquote></li>
+                <li>dl = Crea una lista de definiciones.</li>
+                <li><dt> Establece el término de una definición</dt></li>
+                <li><dd>Establece la descripción de un término de una definición </dd></li>
+                <li>figure = Agrupa un elemento visual en una figura o ilustración.</li>
+                <li>figcaption = Establece una leyenda a una figura o ilustración</li>
+            </ol>
+            </div>
+    </main>
+</body>
+</html>
