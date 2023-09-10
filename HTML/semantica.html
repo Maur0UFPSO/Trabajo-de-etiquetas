@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+        *{
+            margin: 0;
+        }
+        body{
+            background-color: #af9a94;
+            color: black;
+        }
+        header{
+            background-color:#371809;
+            padding: 35px;
+            color: white;
+        }
+        nav{
+            background-color: #683217;
+            padding: 15px;
+        }
+        aside{
+            display: flex;
+            margin: auto;
+            padding: 100px 75px;
+        }
+        #pri{
+            background-color: #895330;
+            display: block;
+            text-align: center;
+        }
+        #seg{
+            background-color: #af9a94;
+            display: block;
+            text-align: center;
+        }
+        #ter{
+            background-color: #895330;
+            text-align: center;
+            display: block;
+        }
+        #cuar{
+            background-color: #af9a94;
+            display: block;
+            text-align: center;
+        }
+        footer{
+            background-color: #683217;
+        }
+        ul{
+            display: flex;
+            justify-content: right;
+            list-style-type: none;
+        }
+        li{
+            margin-right: 25px;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+        }
+        a:hover{
+            color: black;
+            filter: drop-shadow(0 0 0.1rem rgb(0, 0, 0));
+        }
+        header{
+            justify-content: center;
+            display: flex;
+        }
+        .navegacion{
+            display: flex;
+        }
+        article{
+            display: flex;
+            margin: 35px;
+        }
+        section{
+            background-color: #895330;
+            display: block;
+            text-align: center;
+            margin: 35px;
+            padding: 100px;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Semantica</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="tablas.html">Tablas</a></li>
+            <li><a href="formularios.html">Formularios</a></li>
+            <li><a href="text.html">Texto</li>
+            <li><a href="semantica.html">Semanticas</a></li>
+            <li><a href="agrup.html">Agrupacion</li>
+            <li><a href="multimed.html">Multimedia</a></li>
+            <li><a href="../index.html">Principal</a></li>
+        </ul>
+    </nav>
+    <h2>Barra de navegacion</h2>
+    <search class="navegacion">
+        <form action="https://www.google.com/search">
+        <label>
+            <input type="search" name="q" autocomplete="off">
+        </label>
+        <input type="submit" value="Buscar">
+        <img src="/Multimedia/2000px-Google_G_Logo.svg_.png" width="50px">
+        </form>
+    </search>
+    <article>
+        <aside id="pri">
+    <h3>
+    Article
+    </h3>
+    <p>La etiqueta HTML <b>article</b> se utiliza para agrupar información muy relevante de una página o documento concreto. Lo primero, es pensar en nuestro documento y reducirlo a la mínima expresión en una lista.</p>
+        </aside>
+    <aside id="seg">
+    <h4>
+    Nav
+    </h4>
+    <p>La etiqueta <b>nav</b> nos permite crear una sección que agrupe los enlaces de navegación por la página, es decir, una especie de <b>div</b> contenedor orientado a desplazarse por los diferentes lugares del sitio web."
+    </p>
+    </aside>
+    <aside id="ter">
+    <h5>
+    Header y Footer
+    </h5>
+    <p>La etiqueta <b>header</b> nos permite identificar la cabecera de una página. Asi mismo, el <b>footer</b> se utiliza para agrupar los elementos a pie de página o elemento.</p>
+    </aside>
+    <aside id="cuar">
+    <h6>
+        Section , Main y Aside
+        </h6>
+        <p>La etiqueta <b>Section y Aside </b> nos permite agrupar una sección genérica de nuestro documento web. Mientras la etiqueta <b>Main</b> es una etiqueta de agrupación general que debe utilizarse para representar el contenido dominante y principal del documento.</p>
+        </aside>
+    </article>
+    <section>
+        <h6>
+            de H1 hasta H6
+            </h6>
+            <p>La etiqueta <b>h1</b> es el titular con más importancia del documento. Las etiquetas <b>h2, h3, h4, h5 y h6</b> son titulares de importancia menor a <b>h1</b> que van reduciendo su importancia a medida que avanza el número o nivel.</p>
+    </section>
+    <footer>
+        <h6>
+        Address
+        </h6>
+        <address>
+            La etiqueta <b>address</b> nos permite representar información de contacto de una persona.
+        </ddress>
+    </footer>
+</body>
+</html>
