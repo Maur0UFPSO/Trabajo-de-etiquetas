@@ -3,49 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style type="text/css">
-        body{
-            background-color: darkslategray;
-            color: white;
-        }
-        ul{
-            display: flex;
-            justify-content: right;
-            list-style-type: none;
-        }
-        li{
-            margin-right: 25px;
-        }
-        a{
-            text-decoration: none;
-            color: white;
-        }
-        a:hover{
-            color: black;
-        }
-        header{
-            justify-content: center;
-            display: flex;
-        }
-    </style>
+    <link rel="stylesheet" href="./HTML/css/estindex.css">
     <title>Document</title>
 </head>
 <body>
-    <header>
-        <h1>Lenguaje HTML</h1>
-    </header>
-    <nav>
-        <ul>
-            <li><a href="./HTML/tablas.html">Tablas</a></li>
-            <li><a href="./HTML/formularios.html">Formularios</a></li>
-            <li><a href="./HTML/text.html">Texto</li>
-            <li><a href="./HTML/semantica.html">Semanticas</a></li>
-            <li><a href="./HTML/agrup.html">Agrupacion</li>
-            <li><a href="./HTML/multimed.html">Multimedia</a></li>
-            <li><a href="./HTML/Estilos.html">Estilos</a></li>
-            <li><a href="./HTML/flexbox.html">flexbox</a></li>
-            <li><a href="index.html">Principal</a></li>
-        </ul>
-    </nav>
+<div class="background"></div>
+<div class="centering"></div>
+<form action="" class="my_form">
+    <div class="login_welcome">
+        <img src="https://static.vecteezy.com/system/resources/previews/006/737/316/non_2x/astronaut-floating-in-space-cartoon-icon-illustration-space-technology-icon-concept-isolated-premium-flat-cartoon-style-vector.jpg" alt="Astronauta" class="login">
+            <h1>Iniciar sesion</h1>
+        </img>
+    </div>
+    <div class="text_field">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Ingrese su email" aria-label="" required>
+        <img src="data:image/png;base64,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" alt="Email">
+    </div>
+    <div class="text_field">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" placeholder="Ingrese su contraseña" aria-label="" required>
+        <img src="https://www.svgrepo.com/show/84319/password.svg" alt="Password">
+    </div>
+    <div>
+        <input type="submit" value="login" class="My_form_button">
+        <div class="my_form_actions">
+            <div class="my_form_row">
+                <a href="#" title="Recuperar contraseña">Recuperar contraseña</a>
+            </div>
+        <div class="my_form_singup">
+                <a href="#" title="Crear cuenta">Registrarse</a>
+        </div>
+    </div>
+</form>
 </body>
 </html>
